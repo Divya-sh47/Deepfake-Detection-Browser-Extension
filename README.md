@@ -22,11 +22,9 @@ project-root/
 │ └── (etc.)
 └── requirements.txt        # Python dependencies
 
-
 ---
 
 ## ⚙️ Backend Setup
-
 ### 1. 🔃 Create a Virtual Environment
 --bash
 python -m venv .venv
@@ -56,8 +54,8 @@ http://localhost:8000/test.html
 1. Open Chrome → go to chrome://extensions/
 2. Enable Developer mode
 3. Click "Load unpacked"
-4. Select the extension/ folder
-Now when you open the test page (test.html), the extension will detect the videos and interact with the Flask backend.
+4. Select the frontend/ folder
+5. Now when you open the test page (test.html)in another tab, the extension will detect the videos and interact with the Flask backend.
 
 ### 📊 Prediction Explanation
 The backend returns a confidence score and calculated from the average prediction of multiple video frames.
