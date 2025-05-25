@@ -75,3 +75,6 @@ The backend returns a confidence score and calculated from the average predictio
 🧩 If the extension fails to work on such sites, you’ll often see related errors or warnings in the browser console (e.g., CORS blocked, captureStream not allowed, etc.).
 🧪 That’s why we created the test.html page inside the static/ folder — it provides a controlled environment for demo/testing, so you can clearly see how the detection system works without security interference.
 
+🎬 **See the Deepfake Detection Extension in action!**  
+Watch the demo video on [my LinkedIn profile](https://www.linkedin.com/posts/divya-sharma-833340287_ai-deepfakedetection-opensource-activity-7332488059868848128-ocxX?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEWjnKcBafn7Lkn8CyeVV-23vKUQCNO6_W4).
+
